@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Alpha{
+public class GreatestAmongThree{
     public static void main(String arg[])throws Exception {
         try{
             Scanner s = new Scanner(System.in);
