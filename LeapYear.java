@@ -7,18 +7,18 @@ public class LeapYear{
 		    if ((year%4)==0){
 	            if ((year%100)==0){
 	            	if ((year%400)==0){
-		            	System.out.println("leap year");
+		            	System.out.println("Yes");
 	            	}
 	            	else{
-			            System.out.println("not a leap year");
+			            System.out.println("no");
 	            	}
 	            }
             	else{
-	            	System.out.println("leap year");
+	            	System.out.println("yes");
             	}
 		    }
             else{
-	           System.out.println("not a leap year");
+	           System.out.println("no");
             }
         } 
         catch(Exception e){
