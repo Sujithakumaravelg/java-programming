@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class numericChar{
+public class isSplChar{
    public static void main(String arg[])throws Exception {
       try{
          int i=0;
@@ -9,8 +9,11 @@ public class numericChar{
             System.out.println("enter valid value");
          else{
             for (char c : str.toCharArray()){
-                if (Character.isDigit(c)) 
-                    i+=1 ;
+                if (!Character.isDigit(c)){ 
+                    if(!Character.isLetter(c)) 
+                        if(c!='.')
+                           i+=1 ;
+                }
             }
             System.out.println(i); 
          }
