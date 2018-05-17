@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class isSplChar{
+public class isSpecialChar{
    public static void main(String arg[])throws Exception {
       try{
          int i=0;
