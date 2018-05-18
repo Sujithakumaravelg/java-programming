@@ -5,7 +5,7 @@ public class printNextVal{
           int i=0;
           Scanner s = new Scanner(System.in);
           int n=s.nextInt();
-          if(n<0 && n>10000000)
+          if(n<10000000)
             System.out.println(n+1);
         }
      catch(Exception e){
