@@ -5,7 +5,8 @@ public class printNextVal{
           int i=0;
           Scanner s = new Scanner(System.in);
           int n=s.nextInt();
-          System.out.println(n+1);
+          if(n<0 && n>10000000)
+            System.out.println(n+1);
         }
      catch(Exception e){
             System.out.println("enter valid value");
