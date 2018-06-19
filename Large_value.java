@@ -39,7 +39,7 @@ public class Large_value{
 			str=str+array[i];
 		}
 		int num=Integer.parseInt(str);
-		System.out.println("largest number:"+str);
+		System.out.println(str);
 
 	}
 
