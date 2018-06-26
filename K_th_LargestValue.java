@@ -7,12 +7,14 @@ public class K_th_LargestValue {
 			int N=s.nextInt();
 			if(N<=100000 && N>=1){
 				int K=s.nextInt();
-				int[] arr=new int[N];
-				for(int i=0;i<N;i++){
-					arr[i]=s.nextInt();
+				if(N>=K){
+					int[] arr=new int[N];
+					for(int i=0;i<N;i++){
+						arr[i]=s.nextInt();
+					}
+					Arrays.sort(arr);
+					System.out.println(arr[N-K]);
 				}
-				Arrays.sort(arr);
-				System.out.println(arr[N-K]);
 			}
 		}
 		catch(Exception e){
