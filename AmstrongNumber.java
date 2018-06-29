@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class AmstrongNumber{
-	public static void main(String a[]){
+	public static void main(String arg[])throws Exception {
 		try{
 			Scanner s =new Scanner(System.in);
 			int in=s.nextInt();
