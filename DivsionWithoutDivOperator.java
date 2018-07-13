@@ -21,3 +21,8 @@ class DivsionWithoutDivOperator{
 		}
 		}
 		}
+
+
+
+
+/*divide without using *,/,% operator print quotient if it is a perfect multiplier else print 0*/
