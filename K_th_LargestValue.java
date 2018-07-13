@@ -1,24 +1,28 @@
-import java.util.Scanner;
+	
 import java.util.Arrays;
 public class K_th_LargestValue {
-	public static void main(String arg[]){
+/*	public static int mymain(){
 		try{
-			Scanner s=new Scanner(System.in);
-			int N=s.nextInt();
-			if(N<=100000 && N>=1){
-				int K=s.nextInt();
-				if(N>=K){
-					int[] arr=new int[N];
-					for(int i=0;i<N;i++){
-						arr[i]=s.nextInt();
-					}
-					Arrays.sort(arr);
-					System.out.println(arr[N-K]);
-				}
-			}
+			int c=6;
+			//return;
 		}
 		catch(Exception e){
-			System.out.println(e);
+			e.printStackTrace();
 		}
+		finally{
+			return 5;
 	}
-}
+	//return 2;
+	}*/
+	public static void main(String arg[]){
+		
+    
+         char a = 'a';
+        int x = (a % 10);
+		System.out.println((char)x);
+		//System.out.println(typeOf(x));
+    }
+			
+		
+	}
+		
